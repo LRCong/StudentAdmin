@@ -1,11 +1,11 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import AdminLayout from './pages/Layout';
+import IRouter from './router'
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
   <React.StrictMode>
-    <AdminLayout />
+    <IRouter />
   </React.StrictMode>,
   document.getElementById('root')
 );
